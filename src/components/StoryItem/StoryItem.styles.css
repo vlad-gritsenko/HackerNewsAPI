@@ -1,0 +1,27 @@
+.story-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 500px;
+    width: 100%;
+    margin-bottom: 50px;
+    padding: 15px;
+    border: 2px solid #61dafb;
+    border-radius: 25px;
+    color: white;
+    overflow: hidden;
+}
+
+.story-item .story-property {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.story-item .story-property-name {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.story-item p {
+    margin: 0;
+}
